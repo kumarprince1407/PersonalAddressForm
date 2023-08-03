@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  background-color: lightseagreen;
+  position: centre;
+}
+.form-group {
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.phone-form {
+  max-height: 10px;
+  position: absolute;
+  top: 75%;
+  left: 44.5%;
+  transform: translate(-50%, -50%);
+}
+input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.button {
+  background-color: aliceblue;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  position: end;
+}
+phone {
+  width: 400px;
+}
