@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 h2 {
   background-color: lightseagreen;
@@ -15,26 +16,67 @@ h2 {
   margin-bottom: 20px;
   background-color: aliceblue;
   padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.form-group label {
+  padding-right: 10px;
+  width: 120px;
 }
 .phone-form {
-  max-height: 10px;
-  position: absolute;
-  top: 75%;
-  left: 44.5%;
-  transform: translate(-50%, -50%);
+  margin-bottom: 20px;
 }
-input {
-  width: 100%;
-  padding: 20px;
+.form-group select,
+.form-group input {
+  flex: 1;
+  padding: 10px;
   border: 1px solid #ccc;
 }
-.button {
+
+.submit {
   background-color: aliceblue;
   color: #fff;
   padding: 10px;
   border: none;
   position: end;
+  margin-right: 20px;
 }
-phone {
-  width: 400px;
+.reset {
+  background-color: aliceblue;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  position: end;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.phone-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.phone-form label {
+  padding-right: 10px;
+  width: 120px;
+}
+.phone-form input {
+  width: 100%;
+  max-width: 520px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buttons button {
+  background-color: rgb(105, 107, 107);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin: 0 5px;
 }
